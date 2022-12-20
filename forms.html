@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="index.html">Ana Sayfa</a>
+    <br /><br />
+
+    <form action="register.php">
+      <div>
+        <div>
+          <label for="name">Adınız:</label>
+          <input type="text" id="name" />
+          <button type="submit">Kaydet</button>
+        </div>
+        <div>
+          <label for="surname">Soy Adınız:</label>
+          <input type="text" id="surname" />
+          <button type="submit">Kaydet</button>
+        </div>
+      </div>
+      <div>
+        <p>En Sevdiğin Programlama Dili Nedir?</p>
+        <input type="radio" id="Html" name="choose" />
+        <label for="Html">Html</label>
+
+        <input type="radio" id="CSS" name="choose" />
+        <label for="CSS">CSS</label>
+
+        <input type="radio" id="JAVA" name="choose" />
+        <label for="JAVA">JAVA</label>
+      </div>
+      <div>
+        <p>En Sevdiğin Programlama Dili Nedir?</p>
+        <input type="checkbox" id="Html2" />
+        <label for="Html2">Html</label>
+
+        <input type="checkbox" id="CSS2" />
+        <label for="CSS2">CSS</label>
+
+        <input type="checkbox" id="JAVA2" />
+        <label for="JAVA2">JAVA</label>
+      </div>
+      <div>
+        <label for="intro">Kendinizin Açıklayın:</label>
+        <br />
+        <textarea name="intro" id="intro"></textarea>
+      </div>
+
+      <div>
+        <label for="cities">Şehirler</label>
+        <select id="cities">
+          <option value="41">Kocaeli</option>
+          <option value="42">Adana</option>
+          <option value="43">Isengard</option>
+          <option value="44">Rohan</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="password">Parola :</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label for="reset">Temizle</label>
+        <input type="reset" id="reset" />
+      </div>
+
+      <div>
+        <label for="color">En Sevdiğiniz Renk</label>
+        <input type="color" id="color" />
+      </div>
+
+      <div>
+        <label for="birthday">Doğum Gününüz??</label>
+        <input type="date" id="birthday" />
+      </div>
+
+      <div>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31" />
+        <label for="datemin">İşe Giriş ve Çıkış Tarihlerinizi Giriniz?:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02" />
+      </div>
+
+      <div>
+        <label for="MeineFiles">Dosyalarım Seç</label>
+        <input type="file" id="MeineFiles" />
+      </div>
+      <div>
+        <label for="ffmonth"
+          >En Sevdiğiniz Ay ? (Dolunay Diyenler Elendi)
+        </label>
+        <input type="month" id="ffmonth" />
+      </div>
+
+      <div>
+        <label for="minvemax">Kaç Saat Uyursunuz?</label>
+        <input type="number" id="minvemax" min="0" max="24" />
+      </div>
+    </form>
+  </body>
+</html>
